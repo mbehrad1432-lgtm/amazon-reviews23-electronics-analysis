@@ -1,0 +1,41 @@
+{
+  "sampling_warning": "First-N sequential pilot, not representative.",
+  "reviews": 1000,
+  "unique_products_in_reviews": 959,
+  "metadata_unique_products": 275,
+  "matched_reviews": 297,
+  "matched_review_pct": 29.7,
+  "matched_products": 275,
+  "modality_percentages": {
+    "has_rating": 100.0,
+    "has_text": 100.0,
+    "has_review_images": 2.0,
+    "has_metadata": 29.7,
+    "has_price": 21.2,
+    "has_product_images": 29.7,
+    "has_product_description": 12.7,
+    "has_product_category": 29.5,
+    "has_timestamp": 100.0,
+    "has_user_id": 100.0
+  },
+  "valid_price_among_matched_pct": 71.38,
+  "diagnostic_random_row_split_70_30": {
+    "seed": 42,
+    "product_id_overlap_count": 16,
+    "user_id_overlap_count": 69,
+    "note": "Diagnostic only; NOT the final evaluation split."
+  },
+  "leakage_exclusion_candidates": [
+    "rating (target itself)",
+    "average_rating (aggregated label information)",
+    "rating_number (aggregate based on rating events)",
+    "helpful_vote (post-publication interaction, timing-dependent)"
+  ],
+  "notes": [
+    "Missing price/images differ from null versus empty containers.",
+    "Aggregate product ratings can encode the target.",
+    "Product-disjoint train/validation/test is recommended for generalization to unseen products; inspect user overlap separately.",
+    "A group split may have unstable class proportions with small first-N pilot.",
+    "Metadata matching is incomplete and not random; compare subgroups before multimodal claims."
+  ]
+}

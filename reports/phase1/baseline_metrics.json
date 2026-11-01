@@ -1,0 +1,15 @@
+{
+  "note": "Exploratory group-disjoint 70/30 train/validation; NOT final test.",
+  "train_rows": 702,
+  "validation_rows": 298,
+  "train_products": 671,
+  "validation_products": 288,
+  "dummy": {
+    "accuracy": 0.6745,
+    "macro_f1": 0.1611
+  },
+  "tfidf_logreg": {
+    "accuracy": 0.6477,
+    "macro_f1": 0.3936
+  }
+}

@@ -1,0 +1,9 @@
+field,present_count,present_pct
+review_text,1000,100.0
+review_title,1000,100.0
+review_image,20,2.0
+timestamp,1000,100.0
+user_id,1000,100.0
+matched_metadata,297,29.7
+product_price,212,21.2
+product_image,297,29.7

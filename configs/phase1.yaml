@@ -1,0 +1,7 @@
+dataset: Amazon Reviews 2023
+category: Electronics
+seed: 42
+max_reviews: 50000
+max_metadata: 50000
+reviews_url: https://datarepo.eng.ucsd.edu/mcauley_group/data/amazon_2023/raw/review_categories/Electronics.jsonl.gz
+metadata_url: https://datarepo.eng.ucsd.edu/mcauley_group/data/amazon_2023/raw/meta_categories/meta_Electronics.jsonl.gz

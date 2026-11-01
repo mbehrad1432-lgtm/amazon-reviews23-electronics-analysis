@@ -1,0 +1,21 @@
+{
+  "source_reviews": 1000,
+  "split_rows": {
+    "train": 702,
+    "validation": 150,
+    "test": 148
+  },
+  "row_overlap": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  },
+  "product_overlap": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  },
+  "every_source_review_assigned_once": true,
+  "product_disjoint": true,
+  "passed": true
+}

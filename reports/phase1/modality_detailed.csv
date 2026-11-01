@@ -1,0 +1,11 @@
+modality,count,percentage_reviews
+has_rating,1000,100.0
+has_text,1000,100.0
+has_review_images,20,2.0
+has_metadata,297,29.7
+has_price,212,21.2
+has_product_images,297,29.7
+has_product_description,127,12.7
+has_product_category,295,29.5
+has_timestamp,1000,100.0
+has_user_id,1000,100.0

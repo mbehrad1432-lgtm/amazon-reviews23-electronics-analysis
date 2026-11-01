@@ -1,0 +1,48 @@
+{
+  "train": {
+    "rows": 702,
+    "products": 671,
+    "ratings": {
+      "1": 63,
+      "2": 21,
+      "3": 49,
+      "4": 105,
+      "5": 464
+    }
+  },
+  "validation": {
+    "rows": 150,
+    "products": 144,
+    "ratings": {
+      "1": 14,
+      "2": 5,
+      "3": 9,
+      "4": 24,
+      "5": 98
+    }
+  },
+  "test": {
+    "rows": 148,
+    "products": 144,
+    "ratings": {
+      "1": 13,
+      "2": 9,
+      "3": 7,
+      "4": 16,
+      "5": 103
+    }
+  },
+  "method": "GroupShuffleSplit, product-disjoint by parent_asin, approx 70/15/15",
+  "seed": 42,
+  "user_overlap_count": {
+    "train_validation": 53,
+    "train_test": 49,
+    "validation_test": 30
+  },
+  "warnings": [
+    "Ratios are approximate because products are grouped.",
+    "This first-N pilot is not representative.",
+    "Keep test untouched for final evaluation. Do not tune on test.",
+    "Fit vectorizers and preprocessors only on train."
+  ]
+}

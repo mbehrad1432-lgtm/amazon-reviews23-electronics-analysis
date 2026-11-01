@@ -1,0 +1,27 @@
+{
+  "pilot_sampling": "first-N reviews, NOT random or representative",
+  "review_count": 1000,
+  "metadata_rows": 275,
+  "unique_review_products": 959,
+  "matched_reviews": 297,
+  "matched_review_pct": 29.7,
+  "matched_unique_products": 275,
+  "unique_users": 195,
+  "exact_duplicate_reviews": 0,
+  "empty_text_count": 0,
+  "review_length_char_median": 166.0,
+  "rating_counts": {
+    "1.0": 90,
+    "2.0": 35,
+    "3.0": 65,
+    "4.0": 145,
+    "5.0": 665
+  },
+  "cautions": [
+    "Do not generalize a sequential pilot to the full dataset.",
+    "A non-null images field can still contain an empty list.",
+    "Product aggregate average_rating and rating_number may leak rating information.",
+    "Price missingness among matched products may differ from unmatched products.",
+    "No statistical significance or final evaluation inferred from EDA."
+  ]
+}

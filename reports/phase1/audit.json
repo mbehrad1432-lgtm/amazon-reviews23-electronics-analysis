@@ -1,0 +1,102 @@
+{
+  "reviews": {
+    "rows": 1000,
+    "columns": [
+      "rating",
+      "title",
+      "text",
+      "images",
+      "asin",
+      "parent_asin",
+      "user_id",
+      "timestamp",
+      "helpful_vote",
+      "verified_purchase"
+    ],
+    "missing_pct": {
+      "rating": 0.0,
+      "title": 0.0,
+      "text": 0.0,
+      "images": 0.0,
+      "asin": 0.0,
+      "parent_asin": 0.0,
+      "user_id": 0.0,
+      "timestamp": 0.0,
+      "helpful_vote": 0.0,
+      "verified_purchase": 0.0
+    },
+    "exact_duplicates": 0
+  },
+  "metadata": {
+    "rows": 275,
+    "columns": [
+      "main_category",
+      "title",
+      "average_rating",
+      "rating_number",
+      "features",
+      "description",
+      "price",
+      "images",
+      "videos",
+      "store",
+      "categories",
+      "details",
+      "parent_asin",
+      "bought_together"
+    ],
+    "missing_pct": {
+      "main_category": 0.36,
+      "title": 0.0,
+      "average_rating": 0.0,
+      "rating_number": 0.0,
+      "features": 0.0,
+      "description": 0.0,
+      "price": 28.36,
+      "images": 0.0,
+      "videos": 0.0,
+      "store": 0.36,
+      "categories": 0.0,
+      "details": 0.0,
+      "parent_asin": 0.0,
+      "bought_together": 100.0
+    },
+    "exact_duplicates": 0
+  },
+  "warnings": [
+    "First-N pilot is not representative.",
+    "Do not use target-derived product average ratings as features."
+  ],
+  "rating_distribution": {
+    "1": 90,
+    "2": 35,
+    "3": 65,
+    "4": 145,
+    "5": 665
+  },
+  "text": {
+    "empty_pct": 0.0,
+    "length_chars": {
+      "count": 1000.0,
+      "mean": 305.049,
+      "std": 389.32974231009786,
+      "min": 2.0,
+      "25%": 67.75,
+      "50%": 166.0,
+      "75%": 388.25,
+      "max": 4219.0
+    }
+  },
+  "review_modalities": {
+    "parent_asin": 100.0,
+    "user_id": 100.0,
+    "timestamp": 100.0,
+    "verified_purchase": 100.0,
+    "helpful_vote": 100.0,
+    "images": 100.0
+  },
+  "metadata_join_coverage_pct": 29.7,
+  "unique_products_reviews": 959,
+  "unique_products_metadata": 275,
+  "unique_users": 195
+}

@@ -1,0 +1,36 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Large or generated datasets
+data/raw/
+data/processed/
+*.jsonl
+*.jsonl.gz
+*.parquet
+
+# Generated models and checkpoints
+models/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+
+# Temporary files
+*.partial
+*.tmp
+.DS_Store
+Thumbs.db
